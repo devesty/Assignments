@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>3-column card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="link rel=stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+   .column1 { 
+     height: 275px;
+    width: 125px;
+    padding:  20px 35px;
+    background: rgb(207, 138, 10);
+    position: relative;
+     overflow: hidden; 
+     text-align: center;
+	}
+    .column2 {
+      height: 275px;
+    width: 125px;
+    padding: 20px 35px;
+    background: #297186;
+    position: relative; 
+     overflow: hidden; 
+     text-align: center;
+    }
+    .column3 {
+      height: 275px;
+    width: 125px;
+    padding: 20px 35px;
+    background: #06455e;
+    position: relative;
+     overflow: hidden; 
+    text-align: center;
+    }
+	.container {
+    width: 50%;
+	   display: flex;
+     text-align: center;
+     justify-content: center;
+     flex-direction: row;
+    }
+    .h1 {
+        padding: 2px 5px;
+        color: white;
+    }
+    .h2 {
+      padding: 2px 5px;
+        color: white;
+    }
+    .h3 {
+      padding: 2px 5px;
+        color: white;
+    }
+    .p1 {
+        padding: 5px 5px;
+        font-size: small;
+        text-align: center;
+        color: white;
+    }
+    .p2 {
+        padding: 5px 5px;
+        font-size: small;
+        text-align: center;
+        color: white;
+    }
+    .p3 {
+        padding: 5px 5px;
+        font-size: small;
+        text-align: center;
+        color: white;
+    }
+    .button1 {
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+    border-radius: 25px;
+    font-size: smaller;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }  
+    .button2 {
+        background-color: white;
+    color:#257a8f;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+    border-radius: 25px;
+    font-size: smaller;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+    .button3 {
+    background-color: white;
+    color: #48a14c;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+    border-radius: 25px;
+    font-size: smaller; 
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    }
+</style>
+</head>
+<body>
+  <main>
+  <h2> 3-column grid layout</h2>
+	<div class="container">
+	   <div class="column1">
+	     <h2 class="h1">SEDANS</h2>
+		 <p class="p1"> Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip. </p>
+       <a href="#" class="button1"> Learn More </a>
+      </div>
+       <div class="column2">
+    <h2 class="h2">SUV</h2>
+      <p class="p2"> Take an SUV for its spacious interior, power and versality. Perfect for your next family vacation and off-road. </p>
+    <a href="#" class="button2"> Learn More </a>
+  </div>
+    <div class="column3">
+    <h2 class="h3">LUXURY</h2>
+      <p class="p3"> Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. </p>
+    <a href="#" class="button3"> Learn More </a>
+    </div>
+</div>
+</main>
+</body>
+
+</html>
